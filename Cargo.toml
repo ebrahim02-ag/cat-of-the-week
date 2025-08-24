@@ -2,9 +2,12 @@
 members = [
     "services/backend",
     "services/frontend",
-    "services/cat-classifier", "catoftheweek",
+    "services/cat-classifier",
+    "libs/filter",
+    "libs/window"
 ]
 
 
 [workspace.dependencies]
 filter = { path = "libs/filter" }
+window = { path = "libs/window" }
