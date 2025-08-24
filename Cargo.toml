@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "services/backend",
+    "services/frontend",
+    "services/cat-classifier", "catoftheweek",
+]
+
+
+[workspace.dependencies]
+filter = { path = "libs/filter" }
